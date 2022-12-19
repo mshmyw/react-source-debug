@@ -134,4 +134,12 @@ throw new Error('This module must be shimmed by a specific renderer.');
 // 由rollup 等工具动态告诉渲染环境，在此我们是dom环境
 export * from './forks/ReactFiberHostConfig.dom';
 ```
-## 7 创建项目
+## 7 其他异常处理
+此时运行 `yarn start` 不再报错，
+但是打开源码文件比如`src/react/packages/rea
+ct-reconciler/src/ReactFiberWorkLoop.old.js`
+发现会有很多错误提示，这是react默认语法检查是flow，vscode把它当成了typescript，解决方法是把vscode 的
+ts校验关掉。
+setting -> workspace -> script validate
+关掉 js 和 ts validate 即可。
+
