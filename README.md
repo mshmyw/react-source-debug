@@ -143,3 +143,8 @@ ts校验关掉。
 setting -> workspace -> script validate
 关掉 js 和 ts validate 即可。
 
+# 调试
+1 首先打开浏览器检查工具，查看火焰图(关注FCP之前的阶段)
+2 查看，火焰图参考：https://www.debugbear.com/blog/devtools-performance
+3 调试
+4 peacock vscode color主题
