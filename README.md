@@ -1,4 +1,5 @@
 # 该仓库目标
+> 来自于会影老师的教学代码 https://github.com/camsong/react-source-debug
 用于调试react 源码
 ## 好处
 1 解决没有sourcemap，无法定位到源文件的问题
